@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",  // it is where our test scenario is stored
         glue = "io/loop/step_definitions",   // it is where step definitions cod stored
         dryRun = false, // generating code snippet "DryRun = true" means do not run scenario just check it
-        tags = "@smoke",
+        tags = "@smoke and @Regression",
         monochrome = true
 )
 
